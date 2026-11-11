@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="720" viewBox="0 0 900 720" role="img" aria-labelledby="title desc">
+<title id="title">The Thanksgiving table</title><desc id="desc">An illustrated overhead tablescape with a golden roast turkey, porcelain plates, linen napkins, autumn leaves, and candlelight.</desc>
+<defs>
+<radialGradient id="glow"><stop stop-color="#e4c69d" stop-opacity=".6"/><stop offset="1" stop-color="#fbf6ed" stop-opacity="0"/></radialGradient>
+<linearGradient id="wood" x2="1" y2="1"><stop stop-color="#805039"/><stop offset=".5" stop-color="#553522"/><stop offset="1" stop-color="#75482e"/></linearGradient>
+<linearGradient id="roast" x2=".8" y2="1"><stop stop-color="#e6ad58"/><stop offset=".35" stop-color="#ba6d2c"/><stop offset="1" stop-color="#713716"/></linearGradient>
+<linearGradient id="linen"><stop stop-color="#d9c7a6"/><stop offset=".5" stop-color="#eee0c7"/><stop offset="1" stop-color="#cfb997"/></linearGradient>
+<radialGradient id="flame"><stop stop-color="#ffebaa" stop-opacity=".7"/><stop offset="1" stop-color="#ffcf5f" stop-opacity="0"/></radialGradient>
+<filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#291b12" flood-opacity=".22"/></filter>
+<g id="plate"><circle r="76" fill="#faf3e6"/><circle r="68" fill="none" stroke="#b69b6b" stroke-width="2"/><circle r="55" fill="#eee3d1"/><circle r="51" fill="#f8f0e2"/><path d="M-24-48H26L20 50H-20Z" fill="#6b704a"/><path d="M-15-47L18 47H-18Z" fill="#899068"/><rect x="-26" y="-8" width="52" height="17" rx="8" fill="#ad8246"/><path d="M-22-2H22" stroke="#d8b576"/></g>
+<g id="fork" stroke="#d4b77a" stroke-width="3" stroke-linecap="round" fill="none"><path d="M0-46V-15Q0-8 9-8T18-15V-46M6-46V-18M12-46V-18M9-8V49"/></g>
+<g id="knife"><path d="M0-48Q17-28 9 2V49H0Z" fill="#d4b77a"/></g>
+<g id="leaf"><path d="M0 0C-36-5-45-36-27-56C-20-35 5-43 10-20Q16-9 0 0Z" fill="currentColor"/><path d="M0 0L-24-45M-10-20L-28-25" stroke="#704625" stroke-width="1.5" fill="none"/></g>
+<g id="pumpkin"><ellipse rx="36" ry="29" fill="#b6622f"/><ellipse rx="25" ry="29" fill="#ce7f3b"/><ellipse rx="11" ry="29" fill="#e19b52"/><path d="M-3-27Q-7-39 6-40L9-35Q1-34 3-27" fill="#58603a"/></g>
+<g id="candle"><ellipse cy="35" rx="28" ry="11" fill="#ab8149"/><rect x="-5" y="-4" width="10" height="38" fill="#bf995c"/><rect x="-10" y="-64" width="20" height="65" rx="4" fill="#faf0cf"/><path d="M-7-59V-11" stroke="#dbcba3" stroke-width="3"/><circle cy="-78" r="47" fill="url(#flame)"/><path d="M0-96C-20-70 14-64 4-84Z" fill="#f9c86c"/><path d="M0-88Q-9-73 3-74Z" fill="#fff7d9"/></g>
+</defs>
+<ellipse cx="450" cy="355" rx="440" ry="335" fill="url(#glow)"/>
+<g transform="translate(455 355) rotate(-12)" filter="url(#shadow)">
+<rect x="-332" y="-250" width="664" height="500" rx="125" fill="url(#wood)"/>
+<g opacity=".1" stroke="#e9c595" fill="none"><path d="M-305-150H305M-330-75H330M-331 0H330M-329 75H329M-306 150H305"/><path d="M-255-210Q-15-195 240-210M-270 209Q0 198 270 209"/></g>
+<path d="M-101-250H100V250H-101Z" fill="url(#linen)"/>
+<path d="M-91-245V245M90-245V245" stroke="#baa380" stroke-dasharray="3 4"/>
+<g transform="translate(-222 -111)"><use href="#plate"/><use href="#fork" transform="translate(-99 0)"/><use href="#knife" transform="translate(94 0)"/></g>
+<g transform="translate(218 112) rotate(180)"><use href="#plate"/><use href="#fork" transform="translate(-99 0)"/><use href="#knife" transform="translate(94 0)"/></g>
+<g transform="translate(225 -128) scale(.8)"><circle r="35" fill="#f7ead5" fill-opacity=".15" stroke="#e7d0ac" stroke-width="2"/><circle r="28" fill="#9c5634" fill-opacity=".7"/><path d="M-17-20Q-30 0-17 19" fill="none" stroke="#f8e7c7" stroke-opacity=".7" stroke-width="3"/></g>
+<g transform="translate(-225 125) scale(.8)"><circle r="35" fill="#f7ead5" fill-opacity=".15" stroke="#e7d0ac" stroke-width="2"/><circle r="28" fill="#9c5634" fill-opacity=".7"/><path d="M-17-20Q-30 0-17 19" fill="none" stroke="#f8e7c7" stroke-opacity=".7" stroke-width="3"/></g>
+<g transform="rotate(12)"><ellipse rx="137" ry="98" fill="#faf3e5"/><ellipse rx="125" ry="88" fill="none" stroke="#b59d70" stroke-width="2"/>
+<g stroke="#657044" stroke-width="4" fill="none"><path d="M-112 10Q-70-81 60-65M-104 42Q-28 97 98 32"/><path d="M-95-15L-105-35M-88-27L-75-45M-60-49L-66-65M-35-58L-27-75M40 66L49 49M70 52L91 56"/></g>
+<ellipse cx="0" cy="-7" rx="84" ry="57" fill="url(#roast)" transform="rotate(-10)"/><path d="M-52-30Q-18-62 38-42" fill="none" stroke="#e9b86a" stroke-width="5" stroke-linecap="round" opacity=".7"/>
+<path d="M-46 12C-98-3-109 34-88 46Q-65 57-42 33" fill="url(#roast)"/><path d="M43 11C94-15 115 24 96 42Q73 56 48 32" fill="url(#roast)"/>
+<path d="M-88 42L-104 60M94 37L111 54" stroke="#efdfbc" stroke-width="8" stroke-linecap="round"/><g fill="#f4e6ca"><circle cx="-107" cy="59" r="7"/><circle cx="-102" cy="64" r="7"/><circle cx="111" cy="57" r="7"/><circle cx="116" cy="52" r="7"/></g>
+<g fill="#752f22"><circle cx="-85" cy="-49" r="6"/><circle cx="-93" cy="-41" r="5"/><circle cx="-98" cy="-52" r="5"/><circle cx="74" cy="-54" r="5"/><circle cx="83" cy="-48" r="6"/></g>
+</g>
+<use href="#candle" transform="translate(-20 -153) rotate(12)"/><use href="#candle" transform="translate(30 175) rotate(12) scale(.8)"/>
+<use href="#pumpkin" transform="translate(75 -168) scale(.7)"/><use href="#pumpkin" transform="translate(-62 169) scale(.7)"/>
+<use href="#leaf" transform="translate(-62 -110) rotate(-25)" color="#a75331"/><use href="#leaf" transform="translate(97 182) rotate(120) scale(.8)" color="#a64e2a"/><use href="#leaf" transform="translate(-110 196) rotate(-80) scale(.65)" color="#c69a43"/><use href="#leaf" transform="translate(126 -170) rotate(70) scale(.7)" color="#b48c3f"/>
+</g>
+<use href="#leaf" transform="translate(100 589) rotate(-30)" color="#b5633c"/><use href="#leaf" transform="translate(765 133) rotate(105) scale(.8)" color="#b68c47"/>
+</svg>
